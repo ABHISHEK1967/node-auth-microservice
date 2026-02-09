@@ -1,0 +1,19 @@
+{
+  "name": "auth-microservice",
+  "version": "1.0.0",
+  "description": "The Auth microservice for user management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node src/server.js",
+    "format:fix": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "author": "Abhishek Karthik <karthik95abi@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "prettier": "3.8.1",
+    "typescript": "^5.9.3"
+  }
+}
