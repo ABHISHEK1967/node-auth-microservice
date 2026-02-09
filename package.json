@@ -7,13 +7,19 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node src/server.js",
     "format:fix": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "lint:check": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix"
+
   },
   "author": "Abhishek Karthik <karthik95abi@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "@eslint/js": "^9.39.2",
     "@types/node": "^25.2.2",
+    "eslint": "^9.39.2",
     "prettier": "3.8.1",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.54.0"
   }
 }
