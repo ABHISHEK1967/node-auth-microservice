@@ -2,7 +2,11 @@
 
 function welcome(name: string) {
     // console.log(`Welcome, ${name}!`)
-    return `Welcome, ${name}!`
+    const user = {
+        name: 'Manikandan',
+    }
+    const lastName = user.name
+    return `Welcome, ${name} + ${lastName}!`
 }
 
 welcome('Abhishek Karthik')
